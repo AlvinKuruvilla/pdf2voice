@@ -3,6 +3,8 @@ name = "pdf2voice"
 version = "0.1.0"
 description = "Turn a research-paper PDF into natural-sounding audio with a local neural voice."
 readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
 authors = [
     { name = "Alvin Kuruvilla", email = "alvineasokuruvilla@gmail.com" }
 ]
