@@ -1,0 +1,22 @@
+[project]
+name = "pdf2voice"
+version = "0.1.0"
+description = "Turn a research-paper PDF into natural-sounding audio with a local neural voice."
+readme = "README.md"
+authors = [
+    { name = "Alvin Kuruvilla", email = "alvineasokuruvilla@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "kokoro>=0.9.4",
+    "numpy>=2.5.1",
+    "pymupdf>=1.28.0",
+    "soundfile>=0.14.0",
+]
+
+[project.scripts]
+pdf2voice = "pdf2voice.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.9.13,<0.10.0"]
+build-backend = "uv_build"
